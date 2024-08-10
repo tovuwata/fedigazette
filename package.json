@@ -18,6 +18,7 @@
     "svelte": "^4.2.7",
     "svelte-check": "^3.6.0",
     "typescript": "^5.0.0",
+    "unocss": "^0.61.9",
     "unplugin-icons": "^0.19.2",
     "vite": "^5.0.3"
   },
