@@ -1,3 +1,4 @@
+import { transformerDirectives } from 'unocss';
 import Icons from 'unplugin-icons/vite';
 import { defineConfig } from 'vite';
 
@@ -10,6 +11,8 @@ export default defineConfig({
     Icons({
       compiler: 'svelte',
     }),
-    UnoCSS(),
+    UnoCSS({
+      cssFileTransformers: [transformerDirectives()],
+    }),
   ],
 });
