@@ -26,6 +26,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@fontsource/noto-emoji": "^5.0.20",
     "@fontsource/noto-sans-jp": "^5.0.20",
     "@fontsource/roboto": "^5.0.14",
     "@unocss/reset": "^0.61.9",
