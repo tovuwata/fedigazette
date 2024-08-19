@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "update-template": "git remote add template git@github.com:tovuwata/tovuwata-web-template.git && git fetch template && git merge template/main --allow-unrelated-histories"
+    "add-template": "git remote add template git@github.com:tovuwata/tovuwata-web-template.git",
+    "update-template": "git fetch template && git merge template/main --allow-unrelated-histories"
   },
   "devDependencies": {
     "@iconify/json": "^2.2.235",
