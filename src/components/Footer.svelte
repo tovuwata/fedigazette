@@ -20,7 +20,7 @@
       <h2 class="h3">当サービス</h2>
       <div class="flex flex-wrap gap-4 justify-center">
         <a
-          href="https://misskey.io/@tovuwata"
+          href="https://misskey.io/@fedigazette"
           target="_blank"
           class="w-12 h-12 text-misskey dark:text-dark-misskey"
           aria-label="Misskeyでフォロー"
@@ -28,7 +28,7 @@
           <SimpleIconsMisskey class="w-full h-full" />
         </a>
         <a
-          href="https://tovuwata.bsky.social"
+          href="https://fedigazette.bsky.social"
           target="_blank"
           class="w-12 h-12 text-bluesky dark:text-dark-bluesky"
           aria-label="Blueskyでフォロー"
