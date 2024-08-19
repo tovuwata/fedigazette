@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import { baseUrl } from '$lib/urlUtils';
+  import { baseUrl } from '$lib/config';
   import { onMount } from 'svelte';
   import { persisted } from 'svelte-persisted-store';
   import MdiContentCopy from '~icons/mdi/content-copy.svelte';
