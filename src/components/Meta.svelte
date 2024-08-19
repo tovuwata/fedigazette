@@ -15,18 +15,18 @@
   import SimpleIconsX from '~icons/simple-icons/x.svelte';
 
   $: meta = {
-    description: $page.data.meta?.description ?? 'Tovuwataのサービスサイトです。',
+    description: $page.data.meta?.description ?? 'Tovuwata FediGazetteのウェブサイトです。',
     image: $page.data.meta?.image ?? 'https://raw.githubusercontent.com/tovuwata/logo/main/ogp.png',
     twitter: $page.data.meta?.twitter ?? 'tovuwata',
-    activitypub: $page.data.meta?.activitypub ?? '@tovuwata@misskey.io',
-    atproto: $page.data.meta?.atproto ?? '@tovuwata.bsky.social',
-    title: $page.data.meta?.title ?? 'Tovuwata',
+    activitypub: $page.data.meta?.activitypub ?? '@fedigazette@misskey.io',
+    atproto: $page.data.meta?.atproto ?? '@fedigazette.bsky.social',
+    title: $page.data.meta?.title ?? 'Tovuwata FediGazette',
     url: baseUrl + ($page.data.meta?.path ?? '/'),
   };
 
   const generateTitle = (title: string) => {
     if (title.toLowerCase().includes('tovuwata')) return title;
-    return `${title} - Tovuwata`;
+    return `${title} - Tovuwata FediGazette`;
   };
 
   let canShareCopy = true;
