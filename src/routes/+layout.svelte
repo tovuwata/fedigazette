@@ -31,7 +31,7 @@
   <div class="min-h-[calc(100vh-4rem)]">
     <slot />
     {#if AdsComponent}
-      <svelte:component this={FooterComponent} />
+      <svelte:component this={AdsComponent} />
     {/if}
     <Meta />
     {#if FooterComponent}
