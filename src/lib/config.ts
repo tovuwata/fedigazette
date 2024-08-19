@@ -1,2 +1,2 @@
-const baseUrl = 'http://localhost:5173';
+const baseUrl = 'https://tovuwata.github.io/fedigazette';
 export { baseUrl };
