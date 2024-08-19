@@ -85,22 +85,22 @@
   };
 </script>
 
-<h1 class="text-3xl font-bold my-4">ニュース</h1>
+<h1 class="my-4 text-3xl font-bold">ニュース</h1>
 <div>
   {#if posts && posts.length > 0}
     <div class="space-y-4">
       {#each paginatedPosts as post}
         <a
           href="{base}/news/view/{post.slug}"
-          class="block bg-white bg-opacity-5 rounded shadow"
+          class="block overflow-hidden bg-white bg-opacity-5 rounded shadow"
         >
           <div class="flex">
-            <div class="w-64 h-36 relative flex-shrink-0">
+            <div class="relative flex-shrink-0 w-64 h-36">
               <img
                 src={post.metadata.image ??
                   'https://raw.githubusercontent.com/tovuwata/logo/main/ogp.png'}
                 alt="サムネイル"
-                class="w-full h-full object-cover"
+                class="object-cover w-full h-full"
               />
             </div>
             <div class="p-4 flex-1 w-[calc(100%-16rem)]">
