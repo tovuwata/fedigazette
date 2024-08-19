@@ -1,0 +1,17 @@
+
+    <rss version="2.0">
+      <channel>
+        <title>ニュース</title>
+        <link>https://tovuwata.github.io/fedigazette/news</link>
+        <description>ニュースの最新10件の記事一覧です。</description>
+        
+          <item>
+            <title>Tovuwata FediGazetteはあなたの分散型SNSガイド</title>
+            <link>https://tovuwata.github.io/fedigazette/news/view/1</link>
+            <pubDate>Mon, 19 Aug 2024 15:00:00 GMT</pubDate>
+            <description>分散型SNSの魅力を深掘りし、楽しさと知識をお届けするTovuwata FediGazette。新しいコミュニケーションの世界を一緒に探求しましょう！</description>
+          </item>
+        
+      </channel>
+    </rss>
+  
