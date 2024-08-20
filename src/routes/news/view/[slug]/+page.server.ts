@@ -7,6 +7,8 @@ export const load = async ({ params }) => {
       meta: {
         title: metadata.title,
         description: metadata.description,
+        path: `/${params.slug}`,
+        image: metadata.image,
       },
     };
   } catch (err) {
