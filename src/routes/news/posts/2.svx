@@ -1,0 +1,16 @@
+---
+title: FediGazetteについてのZennの記事を書きました
+description: 「高校生が独りで分散型SNSの専門WEBメディアを作った話」というFediGazetteについてのZennの記事を書きました。
+date: 2024/08/20
+author: 段風桜
+---
+
+こんにちは、段風桜です。
+
+今回は、私が立ち上げた分散型SNSに特化したWEBメディア「Tovuwata FediGazette」について書いたZennの記事を紹介します。
+
+[こちらから記事を読む](https://zenn.dev/dampuzakura/articles/tovuwata-fedigazette-develop)
+
+この記事では、高校生が独りで分散型SNSに特化したWEBメディア「Tovuwata FediGazette」を立ち上げた経緯や、ウェブサイトの開発過程と直面した苦労について詳しく紹介しています。
+
+ぜひご覧ください。
