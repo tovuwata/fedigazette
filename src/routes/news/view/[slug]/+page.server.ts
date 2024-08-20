@@ -7,7 +7,7 @@ export const load = async ({ params }) => {
       meta: {
         title: metadata.title,
         description: metadata.description,
-        path: `/${params.slug}`,
+        path: `/news/view/${params.slug}`,
         image: metadata.image,
       },
     };
