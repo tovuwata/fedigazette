@@ -56,6 +56,8 @@ const config = {
         '/sponsor',
         '/terms',
         '/news/rss.xml',
+        '/robots.txt',
+        '/sitemap.xml'
       ].concat(newsEntries),
     },
   },
