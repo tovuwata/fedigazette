@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns=”https://www.sitemaps.org/schemas/sitemap/0.9/”>
   <sitemap>
-    <loc>/</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap><sitemap>
-    <loc>/about</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/about</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap><sitemap>
-    <loc>/contact</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/contact</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap><sitemap>
-    <loc>/donate</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/donate</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap><sitemap>
-    <loc>/news</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/news</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap><sitemap>
-    <loc>/policy</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/policy</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap><sitemap>
-    <loc>/privacy</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/privacy</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap><sitemap>
-    <loc>/sponsor</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/sponsor</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap><sitemap>
-    <loc>/terms</loc>
-    <lastmod>2024-08-21T17:53:56+09:00</lastmod>
+    <loc>https://tovuwata.github.io/fedigazette/terms</loc>
+    <lastmod>2024-08-21T18:01:57+09:00</lastmod>
   </sitemap>
 </sitemapindex>
