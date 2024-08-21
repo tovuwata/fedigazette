@@ -77,7 +77,7 @@ export async function GET() {
 
   for (const path in modules) {
     const module = (await modules[path]()) as { metadata: Metadata };
-    const url = `${baseUrl}/news/view/${
+    const url = `/news/view/${
       path.split('/').pop()?.replace('.svx', '') || ''
     }`;
     entries.push({ metadata: module.metadata, url });
@@ -88,7 +88,7 @@ export async function GET() {
   ${entries
     .map(
       (entry) => `<sitemap>
-    <loc>${entry.url}</loc>
+    <loc>${baseUrl}${entry.url}</loc>
     <lastmod>${dayjs(entry.metadata.date).tz('Asia/Tokyo').format('YYYY-MM-DDTHH:mm:ssZ')}</lastmod>
   </sitemap>`
     )
