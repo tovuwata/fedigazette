@@ -16,7 +16,7 @@ interface Entry {
 }
 
 export async function GET() {
-  const modules = import.meta.glob('../posts/*.svx');
+  const modules = import.meta.glob('../news/posts/*.svx');
   const now = dayjs().toString();
   const entries: Entry[] = [
     {
@@ -84,16 +84,16 @@ export async function GET() {
   }
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns=”https://www.sitemaps.org/schemas/sitemap/0.9/”>
+<urlset xmlns=”https://www.sitemaps.org/schemas/sitemap/0.9/”>
   ${entries
     .map(
-      (entry) => `<sitemap>
+      (entry) => `<url>
     <loc>${baseUrl}${entry.url}</loc>
     <lastmod>${dayjs(entry.metadata.date).tz('Asia/Tokyo').format('YYYY-MM-DDTHH:mm:ssZ')}</lastmod>
-  </sitemap>`
+  </url>`
     )
     .join('')}
-</sitemapindex>`;
+</urlset>`;
 
   return new Response(sitemap, {
     headers: {
