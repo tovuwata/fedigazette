@@ -84,7 +84,7 @@ export async function GET() {
   }
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns=”https://www.sitemaps.org/schemas/sitemap/0.9/”>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   ${entries
     .map(
       (entry) => `<url>
@@ -92,7 +92,7 @@ export async function GET() {
     <lastmod>${dayjs(entry.metadata.date).tz('Asia/Tokyo').format('YYYY-MM-DDTHH:mm:ssZ')}</lastmod>
   </url>`
     )
-    .join('')}
+    .join('\n  ')}
 </urlset>`;
 
   return new Response(sitemap, {
