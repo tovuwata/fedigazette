@@ -1,6 +1,12 @@
 <script lang="ts">
   import { onMount, SvelteComponent } from 'svelte';
   import { page } from '$app/stores';
+  import dayjs from 'dayjs';
+  import timezone from 'dayjs/plugin/timezone';
+  import utc from 'dayjs/plugin/utc';
+
+  dayjs.extend(utc);
+  dayjs.extend(timezone);
 
   let content: SvelteComponent | null = null;
   let metadata: {
@@ -28,7 +34,11 @@
   {#if content && metadata}
     <article>
       <h1>{metadata.title ?? ''}</h1>
-      <p>投稿日時: {metadata.date ?? ''}</p>
+      <p>
+        投稿日時: {dayjs(metadata.date)
+          .tz('Asia/Tokyo')
+          .format('YYYY年MM月DD日') ?? ''}
+      </p>
       <p>ライター: {metadata.author ?? ''}</p>
       <div class="divider"></div>
       <svelte:component this={content} />

@@ -94,8 +94,8 @@
           href="{base}/news/view/{post.slug}"
           class="block overflow-hidden bg-white bg-opacity-5 rounded shadow"
         >
-          <div class="flex">
-            <div class="relative flex-shrink-0 w-64 h-36">
+          <div class="flex flex-wrap items-center md:flex-nowrap">
+            <div class="relative flex-shrink-0 w-full h-36 md:w-64">
               <img
                 src={post.metadata.image ??
                   'https://raw.githubusercontent.com/tovuwata/logo/main/ogp.png'}
@@ -103,8 +103,10 @@
                 class="object-cover w-full h-full"
               />
             </div>
-            <div class="p-4 flex-1 w-[calc(100%-16rem)]">
-              <h2 class="text-2xl font-semibold truncate">{post.metadata.title}</h2>
+            <div class="p-4 flex-1 w-full md:w-[calc(100%-16rem)]">
+              <h2 class="text-2xl font-semibold truncate">
+                {post.metadata.title}
+              </h2>
               <p class="truncate">{post.metadata.description ?? ''}</p>
               <p class="truncate">{post.metadata.author ?? ''}</p>
               <p class="text-sm truncate">
