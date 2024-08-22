@@ -6,6 +6,13 @@
         <description>ニュースの最新10件の記事一覧です。</description>
         
           <item>
+            <title>Tuskyの最新版26.1リリース</title>
+            <link>https://tovuwata.github.io/fedigazette/news/view/3</link>
+            <pubDate>Wed, 21 Aug 2024 15:00:00 GMT</pubDate>
+            <description>新機能の追加と重要なバグ修正</description>
+          </item>
+        
+          <item>
             <title>Tovuwata FediGazetteはあなたの分散型SNSガイド</title>
             <link>https://tovuwata.github.io/fedigazette/news/view/1</link>
             <pubDate>Mon, 19 Aug 2024 15:00:00 GMT</pubDate>
@@ -17,13 +24,6 @@
             <link>https://tovuwata.github.io/fedigazette/news/view/2</link>
             <pubDate>Mon, 19 Aug 2024 15:00:00 GMT</pubDate>
             <description>「高校生が独りで分散型SNSの専門WEBメディアを作った話」というFediGazetteについてのZennの記事を書きました。</description>
-          </item>
-        
-          <item>
-            <title>Tuskyの最新版26.1リリース</title>
-            <link>https://tovuwata.github.io/fedigazette/news/view/3</link>
-            <pubDate>Mon, 19 Aug 2024 15:00:00 GMT</pubDate>
-            <description>新機能の追加と重要なバグ修正</description>
           </item>
         
       </channel>
