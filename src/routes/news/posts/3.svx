@@ -1,7 +1,7 @@
 ---
 title: Tuskyの最新版26.1リリース
 description: 新機能の追加と重要なバグ修正
-date: 2024/08/20
+date: 2024/08/22
 author: 段風桜
 ---
 
