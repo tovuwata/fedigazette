@@ -110,7 +110,7 @@
       aria-label="Misskeyで共有"
       on:click={() =>
         share(
-          `https://misskey-hub.net/share?url=${encodeURIComponent(meta.url)}&text=${encodeURIComponent(meta.description + ' ' + meta.activitypub)}`
+          `https://misskey-hub.net/share?url=${encodeURIComponent(meta.url)}&text=${encodeURIComponent(meta.title + '' + meta.description + ' ' + meta.activitypub)}`
         )}
       class="w-8 h-8"
     >
@@ -122,7 +122,7 @@
       aria-label="Mastodonで共有"
       on:click={() =>
         share(
-          `https://mastoshare.net/share?url=${encodeURIComponent(meta.url)}&text=${encodeURIComponent(meta.description + ' ' + meta.activitypub)}`
+          `https://mastoshare.net/share?url=${encodeURIComponent(meta.url)}&text=${encodeURIComponent(meta.title + '' + meta.description + ' ' + meta.activitypub)}`
         )}
       class="w-8 h-8 text-mastodon dark:text-dark-mastodon"
     >
@@ -132,7 +132,7 @@
       aria-label="Blueskyで共有"
       on:click={() =>
         share(
-          `https://bsky.app/intent/compose?text=${encodeURIComponent(meta.description + ' ' + meta.url + ' ' + meta.atproto)}`
+          `https://bsky.app/intent/compose?text=${encodeURIComponent(meta.title + '' + meta.description + ' ' + meta.url + ' ' + meta.atproto)}`
         )}
       class="w-8 h-8"
     >
@@ -144,7 +144,7 @@
       aria-label="Xで共有"
       on:click={() =>
         share(
-          `https://x.com/intent/post?url=${encodeURIComponent(meta.url)}&text=${encodeURIComponent(meta.description)}&via=${encodeURIComponent(meta.twitter)}`
+          `https://x.com/intent/post?url=${encodeURIComponent(meta.url)}&text=${encodeURIComponent(meta.title + '' + meta.description)}&via=${encodeURIComponent(meta.twitter)}`
         )}
       class="w-8 h-8"
     >
@@ -154,7 +154,7 @@
       aria-label="LINEで共有"
       on:click={() =>
         share(
-          `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(meta.url)}&text=${encodeURIComponent(meta.description)}`
+          `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(meta.url)}&text=${encodeURIComponent(meta.title + '' + meta.description)}`
         )}
       class="w-8 h-8"
     >
