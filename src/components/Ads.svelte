@@ -9,7 +9,9 @@
   };
 </script>
 
-<section class="section"></section>
+<section class="section">
+  <div id="affiliate-area"></div>
+</section>
 
 {#if $isMessageVisible}
   <section class="section">
