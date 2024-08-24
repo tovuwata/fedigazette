@@ -1,3 +1,0 @@
-import{s as l,n as a}from"./scheduler.BOA6urbn.js";import{S as o,i,e as c,c as h,k as p,n as u,g as m,d as f}from"./index.BWy9xwAw.js";function _(n){let t,s=`ご不明点などについては、
-  <a href="https://forms.gle/r14xM6YZG5CXxhaLA" target="_blank" class="usp-v5agw8">こちら</a>または
-  <a href="https://tovuwata.bsky.social" target="_blank" class="usp-v5agw8">Bluesky チャット</a>からお問い合わせください。`;return{c(){t=c("p"),t.innerHTML=s,this.h()},l(e){t=h(e,"P",{class:!0,"data-svelte-h":!0}),p(t)!=="svelte-wlef3m"&&(t.innerHTML=s),this.h()},h(){u(t,"class","usp-o3jbxq")},m(e,r){m(e,t,r)},p:a,i:a,o:a,d(e){e&&f(t)}}}class v extends o{constructor(t){super(),i(this,t,null,_,l,{})}}export{v as C};

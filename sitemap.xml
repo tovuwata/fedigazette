@@ -2,58 +2,62 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tovuwata.github.io/fedigazette/</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/about</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/contact</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/donate</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/news</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/policy</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/privacy</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/sponsor</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/terms</loc>
-    <lastmod>2024-08-24T18:28:50+09:00</lastmod>
+    <lastmod>2024-08-24T20:25:59+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/news/view/1</loc>
-    <lastmod>2024-08-20T00:00:00+09:00</lastmod>
+    <lastmod>2024-08-20T09:00:00+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/news/view/2</loc>
-    <lastmod>2024-08-20T00:00:00+09:00</lastmod>
+    <lastmod>2024-08-20T09:00:00+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/news/view/3</loc>
-    <lastmod>2024-08-22T00:00:00+09:00</lastmod>
+    <lastmod>2024-08-22T09:00:00+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/news/view/4</loc>
-    <lastmod>2024-08-23T00:00:00+09:00</lastmod>
+    <lastmod>2024-08-23T09:00:00+09:00</lastmod>
   </url>
   <url>
     <loc>https://tovuwata.github.io/fedigazette/news/view/5</loc>
-    <lastmod>2024-08-24T00:00:00+09:00</lastmod>
+    <lastmod>2024-08-24T09:00:00+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://tovuwata.github.io/fedigazette/news/view/6</loc>
+    <lastmod>2024-08-24T09:00:00+09:00</lastmod>
   </url>
 </urlset>
