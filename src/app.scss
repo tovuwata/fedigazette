@@ -26,7 +26,7 @@ body {
     @apply blockquote;
   }
   a {
-    @apply button;
+    @apply text-blue-500 underline;
   }
   section {
     @apply p-4 mt-4;
