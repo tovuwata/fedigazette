@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { persisted } from 'svelte-persisted-store';
   import MdiHandBackRight from '~icons/mdi/hand-back-right';
 
@@ -7,12 +8,12 @@
   const toggleMessageVisible = () => {
     isMessageVisible.update((n) => !n);
   };
-</script>
 
-<section class="section">
-  <div id="affiliate-area">
-    <!-- MAF Rakuten Widget FROM HERE -->
-    <script type="text/javascript">
+  onMount(() => {
+    // MAF Rakuten Widgetのパラメータを設定する関数を追加
+    const mafRakutenWidgetParamScript = document.createElement('script');
+    mafRakutenWidgetParamScript.type = 'text/javascript';
+    mafRakutenWidgetParamScript.text = `
       MafRakutenWidgetParam = function () {
         return {
           size: '600x200',
@@ -23,13 +24,26 @@
           border: 'on',
         };
       };
-    </script>
-    <script
-      type="text/javascript"
-      src="//image.moshimo.com/static/publish/af/rakuten/widget.js"
-    ></script>
-    <!-- MAF Rakuten Widget TO HERE -->
-  </div>
+    `;
+    document.body.appendChild(mafRakutenWidgetParamScript);
+
+    // Rakuten Widgetのスクリプトを追加
+    const rakutenWidgetScript = document.createElement('script');
+    rakutenWidgetScript.type = 'text/javascript';
+    rakutenWidgetScript.src =
+      '//image.moshimo.com/static/publish/af/rakuten/widget.js';
+    document.body.appendChild(rakutenWidgetScript);
+
+    // クリーンアップ関数
+    return () => {
+      document.body.removeChild(mafRakutenWidgetParamScript);
+      document.body.removeChild(rakutenWidgetScript);
+    };
+  });
+</script>
+
+<section class="section">
+  <div id="affiliate-area"></div>
 </section>
 
 {#if $isMessageVisible}
