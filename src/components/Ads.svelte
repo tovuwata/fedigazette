@@ -9,8 +9,6 @@
   };
 </script>
 
-<section class="section"></section>
-
 {#if $isMessageVisible}
   <section class="section">
     <div class="p-4 text-white bg-red-700 rounded">
