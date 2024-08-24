@@ -48,4 +48,10 @@
   {:else}
     <p>読み込み中...</p>
   {/if}
+
+  {@html `
+      <!-- MAF Rakuten Widget FROM HERE -->
+      <script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'600x200',design:'slide',recommend:'on',auto_mode:'on',a_id:'4672842', border:'on'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
+      <!-- MAF Rakuten Widget TO HERE -->
+    `}
 </section>
