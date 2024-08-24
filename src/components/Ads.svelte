@@ -8,42 +8,16 @@
   const toggleMessageVisible = () => {
     isMessageVisible.update((n) => !n);
   };
-
-  onMount(() => {
-    // MAF Rakuten Widgetのパラメータを設定する関数を追加
-    const mafRakutenWidgetParamScript = document.createElement('script');
-    mafRakutenWidgetParamScript.type = 'text/javascript';
-    mafRakutenWidgetParamScript.text = `
-      MafRakutenWidgetParam = function () {
-        return {
-          size: '600x200',
-          design: 'slide',
-          recommend: 'on',
-          auto_mode: 'on',
-          a_id: '4672842',
-          border: 'on',
-        };
-      };
-    `;
-    document.body.appendChild(mafRakutenWidgetParamScript);
-
-    // Rakuten Widgetのスクリプトを追加
-    const rakutenWidgetScript = document.createElement('script');
-    rakutenWidgetScript.type = 'text/javascript';
-    rakutenWidgetScript.src =
-      '//image.moshimo.com/static/publish/af/rakuten/widget.js';
-    document.body.appendChild(rakutenWidgetScript);
-
-    // クリーンアップ関数
-    return () => {
-      document.body.removeChild(mafRakutenWidgetParamScript);
-      document.body.removeChild(rakutenWidgetScript);
-    };
-  });
 </script>
 
 <section class="section">
-  <div id="affiliate-area"></div>
+  <div id="affiliate-area">
+    {@html `
+      <!-- MAF Rakuten Widget FROM HERE -->
+      <script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'600x200',design:'slide',recommend:'on',auto_mode:'on',a_id:'4672842', border:'on'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
+      <!-- MAF Rakuten Widget TO HERE -->
+    `}
+  </div>
 </section>
 
 {#if $isMessageVisible}
