@@ -1,0 +1,28 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main  # デプロイを行うブランチを指定
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Bun
+        run: curl -fsSL https://bun.sh/install | bash
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Build
+        run: bun build  # ビルドコマンドを指定
+
+      - name: Deploy
+        run: |
+          # デプロイコマンドを指定（例：Vercel, Netlifyなど）
+          bun run deploy  # 自分のデプロイコマンドを使用
