@@ -14,15 +14,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up Bun
-        run: curl -fsSL https://bun.sh/install | bash
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
         run: bun install
 
-      - name: Build
-        run: bun build  # ビルドコマンドを指定
-
       - name: Deploy
         run: |
-          # デプロイコマンドを指定（例：Vercel, Netlifyなど）
-          bun run deploy  # 自分のデプロイコマンドを使用
+          bun run deploy
