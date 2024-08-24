@@ -1,9 +1,9 @@
-name: Deploy Website
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # デプロイを行うブランチを指定
+      - main
 
 jobs:
   deploy:
@@ -19,6 +19,11 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Deploy
-        run: |
-          bun run deploy
+      - name: Build the project
+        run: bun run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
