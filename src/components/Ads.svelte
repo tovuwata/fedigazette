@@ -9,11 +9,7 @@
   };
 </script>
 
-<section class="section">
-  <div class="p-4 rounded border">
-    <h2 class="h2">広告</h2>
-  </div>
-</section>
+<section class="section"></section>
 
 {#if $isMessageVisible}
   <section class="section">
