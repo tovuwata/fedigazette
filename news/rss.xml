@@ -6,6 +6,34 @@
         <description>ニュースの最新10件の記事一覧です。</description>
         
           <item>
+            <title>常夜迷子サーバー仕様変更</title>
+            <link>https://tovuwata.github.io/fedigazette/news/view/10</link>
+            <pubDate>Mon, 26 Aug 2024 00:00:00 GMT</pubDate>
+            <description>翻訳機能の有効化や、各機能の制限を実施</description>
+          </item>
+        
+          <item>
+            <title>常夜迷子が24時間営業に</title>
+            <link>https://tovuwata.github.io/fedigazette/news/view/8</link>
+            <pubDate>Mon, 26 Aug 2024 00:00:00 GMT</pubDate>
+            <description>本日より営業時間を0時から24時に変更</description>
+          </item>
+        
+          <item>
+            <title>常夜迷子のスパム抑制策、リモートユーザーからのメンションをブロック</title>
+            <link>https://tovuwata.github.io/fedigazette/news/view/9</link>
+            <pubDate>Mon, 26 Aug 2024 00:00:00 GMT</pubDate>
+            <description>フォロワーでないリモートユーザーからのメンションをブロックする新たなスパム抑制策を導入</description>
+          </item>
+        
+          <item>
+            <title>アナヒビ月報（2024年8月）公開</title>
+            <link>https://tovuwata.github.io/fedigazette/news/view/7</link>
+            <pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate>
+            <description>収支報告や最近の取り組みなど</description>
+          </item>
+        
+          <item>
             <title>「隠れ家」利用規約を一部改定</title>
             <link>https://tovuwata.github.io/fedigazette/news/view/5</link>
             <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
@@ -17,13 +45,6 @@
             <link>https://tovuwata.github.io/fedigazette/news/view/6</link>
             <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
             <description>さいどみすきーがPIXIV FANBOXにて2024年6月から8月までの収支報告を掲載</description>
-          </item>
-        
-          <item>
-            <title>アナヒビソーシャル月報（2024年8月）公開</title>
-            <link>https://tovuwata.github.io/fedigazette/news/view/7</link>
-            <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
-            <description>収支報告や最近の取り組みなど</description>
           </item>
         
           <item>
