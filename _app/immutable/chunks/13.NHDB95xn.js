@@ -1,0 +1,12 @@
+import{s as L,n as w}from"./scheduler.BOA6urbn.js";import{S as M,i as B,e as i,s as _,c as x,k as p,f as P,g as l,d as n}from"./index.BWy9xwAw.js";function D(G){let s,A=`Element XのAndroid版が新たにバージョン0.5.1としてリリースされた。
+このアップデートでは、いくつかの新機能や改善点、バグ修正が行われている。`,d,C,I=`まず、開発者オプションに簡易的なスライディング同期トグルが追加された。
+また、アイデンティティのリセット機能も実装され、ユーザーの利便性が向上した。
+タイムラインUIにおいては、MessageShieldのサポートが加わり、より安全なメッセージングが可能となった。
+さらに、部屋のエイリアスの提案機能が追加されたが、現在は無効化されている。
+最後に、Element Callにおいてピクチャー・イン・ピクチャー（PiP）モードが利用可能となった。`,E,a,U=`部屋への参加時にエイリアスを使用できる機能が追加され、プレビュー機能もサポートされるようになった。
+ピン留めされたメッセージがタイムラインに表示されるようになり、通知におけるメンションや返信のテキストも改善された。
+また、Element Callの新機能を活用し、PiPに関連する機能が向上した。`,j,v,b=`異なるホームサーバーでのセッションパスの再利用を防止し、メディアが正しく読み込まれない問題を修正した。
+さらに、アイデンティティのリセット時にパスワードが読み込み状態で止まる問題も解決された。`,S,m,h="Elementボットによって、複数の言語における文字列の同期が行われ、新たにオランダ語も追加された。",X,u,k=`ソナークラウドプロジェクトキーの更新や、Linux上でのビルドスクリプトの修正、Gradleのバージョンアップが行われた。
+これにより、開発環境がさらに整備されている。`,c,f,y=`現在、ピン留めイベントに関する新機能が開発中であり、ピン留めやピン解除のアクションが追加される予定である。
+また、バナーUIの作成も進行中で、ロジックの実装が待たれている。`,q,o,z=`Element Xの新バージョンは、ユーザーに対してより便利で安全なメッセージング体験を提供することを目指している。
+今後のアップデートにも期待が寄せられる。`;return{c(){s=i("p"),s.textContent=A,d=_(),C=i("p"),C.textContent=I,E=_(),a=i("p"),a.textContent=U,j=_(),v=i("p"),v.textContent=b,S=_(),m=i("p"),m.textContent=h,X=_(),u=i("p"),u.textContent=k,c=_(),f=i("p"),f.textContent=y,q=_(),o=i("p"),o.textContent=z},l(t){s=x(t,"P",{"data-svelte-h":!0}),p(s)!=="svelte-cujxe6"&&(s.textContent=A),d=P(t),C=x(t,"P",{"data-svelte-h":!0}),p(C)!=="svelte-846sz8"&&(C.textContent=I),E=P(t),a=x(t,"P",{"data-svelte-h":!0}),p(a)!=="svelte-m2bf8g"&&(a.textContent=U),j=P(t),v=x(t,"P",{"data-svelte-h":!0}),p(v)!=="svelte-pg92dg"&&(v.textContent=b),S=P(t),m=x(t,"P",{"data-svelte-h":!0}),p(m)!=="svelte-1g1529j"&&(m.textContent=h),X=P(t),u=x(t,"P",{"data-svelte-h":!0}),p(u)!=="svelte-12w1uhp"&&(u.textContent=k),c=P(t),f=x(t,"P",{"data-svelte-h":!0}),p(f)!=="svelte-109vjh6"&&(f.textContent=y),q=P(t),o=x(t,"P",{"data-svelte-h":!0}),p(o)!=="svelte-qe92iw"&&(o.textContent=z)},m(t,e){l(t,s,e),l(t,d,e),l(t,C,e),l(t,E,e),l(t,a,e),l(t,j,e),l(t,v,e),l(t,S,e),l(t,m,e),l(t,X,e),l(t,u,e),l(t,c,e),l(t,f,e),l(t,q,e),l(t,o,e)},p:w,i:w,o:w,d(t){t&&(n(s),n(d),n(C),n(E),n(a),n(j),n(v),n(S),n(m),n(X),n(u),n(c),n(f),n(q),n(o))}}}const J={title:"Element X Android v0.5.1リリース",description:"新機能と改善が満載！",date:"2024/08/28",author:"段風桜"};class K extends M{constructor(s){super(),B(this,s,null,D,L,{})}}export{K as default,J as metadata};
